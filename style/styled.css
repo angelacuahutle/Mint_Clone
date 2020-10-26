@@ -1,38 +1,47 @@
 html, body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-.sign-incontainer {
-  margin-top:40px;
-  margin-left:1350px;
-  font-family:helvetica;
-  font-size: small;
+#wrapper {
+  width: 100%;
+  height: auto;
 
 }
-.signin-button {
+.signin-container {
+  margin-top:40px;
+  margin-left:1350px;
+  font-size: small;
+}
+.button-signin {
   box-sizing: border-box;
   width: 115px;
   height: 35px;
   border-radius: 4pt;
-  background-color: rgb(73, 128, 230);
-  color: #ffffff;right
-
-p {
-font-size: 6px;
-color: #D3D3D3;
+  background-color: #4980e6;
+  color: #ffffff;
 }
-
-h2 {
-  font: arial;
-  size: 15px;
-}
-
-.form {
+.form-container {
+  margin: 0 auto;
   box-shadow: rgb(250, 248, 248);
-  width: 20px;
-  height: 200px;
-  border: solid rgb(65, 52, 52);
-
+  width: 450px;
+  height: 700px;
+  border: 1px solid rgb(65, 52, 52);
 }
-    
-    
-
-} 
+p {
+  font-size: 15px;
+  color: #000000;
+}
+h2 {
+  text-align: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: normal;
+}
+.main-text {
+  text-align: center;
+}
+.button-create {
+  background-color: #56b1db;
+  height: 42px;
+  width: 300px;
+  border-radius: 4px;
+  padding-left: auto;
+}

@@ -2,20 +2,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="./style/styled.css"> 
+        <link rel="stylesheet" type="text/css" href="./style/styled.css">
+        <script src="https://kit.fontawesome.com/0348c0adc9.js" crossorigin="anonymous"></script> 
         <title>Mocking Mint.com</title>
     </head>
+
+    <div id="wrapper">
     <header>
-        <div class="sign-incontainer">
-        <p>
-            Already have an Intuit account?    
-        </p>
-        <a>
-            I forgot my User ID or Password
-        </a>
-        <button class="signin-button">
-            Sign In
-        </button>
+        <div class="signin-container">
+            <div class="signin-text">
+                <p>
+                    Already have an Intuit account?    
+                </p>
+                <a>
+                    I forgot my User ID or Password
+                </a>
+            </div>
+            <div class="signin-button">
+                <button class="button-signin">
+                    <i class="fas fa-lock"></i>
+                    Sign In
+                </button>
+            </div>
     </div>
         <img class="logo" alt="Intuit">
         <img class="mint" alt="Mint">
@@ -24,25 +32,29 @@
         </header>   
     <body>
         <main>
+            <div class="form-container">
             <h2>
                 Create an Intuit account
             </h2>
+            <div  class="main-text">
             <p>
                 One account for everything Intuit, including Mint.
             </p>
             <p>
-                <a>
+                <a href="#">
                     Learn more
                 </a>
             </p>
+            </div>
             <form>
-                <label for="email">Email address</label>
-                <input type="text" id="email" name="email">
-                <label for="phone">Phone (recommended)</label>
-                <input type="text" id="phone" name="phone">
-                <label for="password">Password</label>
-                <input type="text" id="password" name="password">
-                <button>
+                <label for="email">Email address</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="phone">Phone (recommended)</label><br>
+                <input type="text" id="phone" name="phone"><br>
+                <label for="password">Password</label><br>
+                <input type="text" id="password" name="password"><br>
+                <button class="button-create">
+                    <i class="fas fa-lock"></i>
                     Create Account
                 </button>
             </form>
@@ -52,6 +64,7 @@
             <h5>
                 Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>.
             </h5>
+            </div>
         </main>
     </body>
     <footer>
@@ -65,4 +78,5 @@
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
         </p>
     </footer>
+    </div>
 </html>
