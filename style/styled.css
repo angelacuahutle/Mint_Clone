@@ -1,10 +1,10 @@
 html, body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ECEEF1;
 }
 #wrapper {
   width: 100%;
   height: auto;
-
 }
 .signin-container {
   margin-top:40px;
@@ -16,12 +16,26 @@ html, body {
   width: 115px;
   height: 35px;
   border-radius: 4pt;
-  background-color: #2f5db4;
+  background-color: #0077C5;
   color: #ffffff;
+}
+.header-icons {
+  width: 450px;
+  margin: 0 auto;
+}
+.logo {
+  position: relative;
+  padding-left: 175px;
+}
+.icons {
+  position: relative;
+  padding-left: 65px;
+  padding-bottom: 15px;
 }
 .form-container {
   margin: 0 auto;
   box-shadow: rgb(250, 248, 248);
+  background-color: white;
   width: 450px;
   height: 700px;
   border: 1px solid rgb(65, 52, 52);
@@ -39,7 +53,7 @@ h2 {
   text-align: center;
 }
 .button-create {
-  background-color: #2378c7;
+  background-color: #0077C5;
   color: #ffffff;
   font-size: medium;
   height: 42px;
@@ -64,5 +78,6 @@ label {
   display: inline-block;
   padding-top: 20px;
 }
-
-
+.captcha {
+  background-color: rgb(228, 214, 214);
+}
