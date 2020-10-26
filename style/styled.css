@@ -1,0 +1,38 @@
+html, body {
+}
+.sign-incontainer {
+  margin-top:40px;
+  margin-left:1350px;
+  font-family:helvetica;
+  font-size: small;
+
+}
+.signin-button {
+  box-sizing: border-box;
+  width: 115px;
+  height: 35px;
+  border-radius: 4pt;
+  background-color: rgb(73, 128, 230);
+  color: #ffffff;right
+
+p {
+font-size: 6px;
+color: #D3D3D3;
+}
+
+h2 {
+  font: arial;
+  size: 15px;
+}
+
+.form {
+  box-shadow: rgb(250, 248, 248);
+  width: 20px;
+  height: 200px;
+  border: solid rgb(65, 52, 52);
+
+}
+    
+    
+
+} 
