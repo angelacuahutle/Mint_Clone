@@ -7,12 +7,31 @@ html, body {
   height: auto;
 }
 .signin-container {
+  display: inline-block;
+  border: 1px solid black;
   margin-top:40px;
-  margin-left:1350px;
+  margin-left:1200px;
+  width: 500px;
+  height: 100px;
   font-size: small;
 }
+.signin-text {
+  font-size: small;
+  border: 1px solid black;
+  padding: 0;
+  width: 230px;
+}
+p {
+  font-family: Arial;
+  font-weight: lighter;
+  color: rgb(160, 158, 158);
+}
 .button-signin {
+  position: absolute;
   box-sizing: border-box;
+  margin-left: 280px;
+  margin-top:-50;
+  margin-bottom: 50px;
   width: 115px;
   height: 35px;
   border-radius: 4pt;
