@@ -33,9 +33,10 @@ a {
   height: 35px;
   background-color: #0077C5;
   color: #ffffff;
-  border: 1px solid #000000;
+  border: 1px solid #8b8b8b;
   border-radius: 4px;
   font-size: small;
+
 }
 .header-icons {
   padding-top: 80px;
@@ -44,11 +45,11 @@ a {
 }
 .logo {
   position: relative;
-  padding-left: 175px;
+  padding-left: 159px;
 }
 .icons {
   position: relative;
-  padding-left: 65px;
+  padding-left: 50px;
   padding-bottom: 15px;
 }
 .form-container {
@@ -57,7 +58,7 @@ a {
   box-shadow: rgb(250, 248, 248);
   background-color: white;
   width: 380px;
-  height: 680px;
+  height: 655px;
   border: 1px solid rgb(209, 207, 207);
 }
 p {
@@ -99,6 +100,7 @@ span {
   background-color: #0077C5;
   color: #f1ecec;
   border-color: rgb(245, 244, 244);
+  box-shadow: none;
   font-size: medium;
   height: 42px;
   width: 320px;
@@ -115,11 +117,39 @@ span {
 }
 .captcha {
   background-color: rgb(228, 214, 214);
-  height: 50px;
-  margin-top: 75px;
-  padding-top: 20px;
+  height: 40px;
+  margin-top: 55px;
+  padding-top: 22px;
   color: rgb(156, 154, 154);
-  font-size:12px;
+  font-size: 11px;
   background-color: #ECEEF1;
   text-align: center;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size:12px;
+  color: #424242;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+footer a {
+  color: #424242;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline-block;
+  padding-left: 9px;
+}
+.privacy-button {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  background-color: grey;
+  color: white;
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
 }
