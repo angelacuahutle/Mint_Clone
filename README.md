@@ -58,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/angelacuahutle/Mint_Clone/blob/new_feature/Licence.md) licensed.
+This project is [MIT](https://github.com/angelacuahutle/Mint_Clone/blob/new_feature/License.md) licensed.
