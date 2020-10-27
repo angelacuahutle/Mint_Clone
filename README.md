@@ -1,7 +1,7 @@
 # Mint_Clone
 This project aims to clone mint.com webpage using HTML forms 
 
-![screenshot](./style/images/Screenshot.png)
+![screenshot](./style/img/main.png)
 
 ## Built With
 
