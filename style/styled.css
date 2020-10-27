@@ -97,14 +97,29 @@ span {
 }
 .button-create {
   background-color: #0077C5;
-  color: #ffffff;
+  color: #f1ecec;
+  border-color: rgb(245, 244, 244);
   font-size: medium;
   height: 42px;
-  width: 350px;
-  border-radius: 4px;
+  width: 320px;
+  border-radius: 5px;
   margin-top: 30px;
   padding-left: auto;
 }
+.terms {
+  font-size:12px;
+  font-style:italic;
+  color: #838080;
+  text-align: center;
+  line-height: 20px;
+}
 .captcha {
   background-color: rgb(228, 214, 214);
+  height: 50px;
+  margin-top: 75px;
+  padding-top: 20px;
+  color: rgb(156, 154, 154);
+  font-size:12px;
+  background-color: #ECEEF1;
+  text-align: center;
 }
