@@ -1,5 +1,5 @@
 # Mint_Clone
-This project aims to clone MInt.com webpage using HTML forms 
+This project aims to clone mint.com webpage using HTML forms 
 
 ![screenshot](./style/images/Screenshot.png)
 
@@ -49,7 +49,8 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/VanessaAoki/youtube-project/issues).
+Feel free to check the [issues page]
+(https://github.com/angelacuahutle/Mint_Clone/issues)
 
 ## Show your support
 
@@ -57,4 +58,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/VanessaAoki/youtube-project/blob/feature/LICENSE.txt) licensed.
+This project is [MIT](https://github.com/angelacuahutle/Mint_Clone/blob/new_feature/Licence.md) licensed.
